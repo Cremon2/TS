@@ -1,7 +1,13 @@
- html, body {
-      height: 99%;
-      margin: 0;
-    }
+html,
+body {
+  height: 100%;
+  margin: 0;
+  touch-action: none;
+}
+
+body {
+  overflow: hidden;
+}
   
     body {
       background: rgb(0, 0, 0);
